@@ -1,0 +1,2 @@
+.\Activate-OrLaunch.ps1 -ProcessName "olk" -Command "Start-Process olk.exe"
+.\Activate-OrLaunch.ps1 -ProcessName "code" -WindowTitle "intranet" -Command "Start-Process -WorkingDirectory '~/repos/intranet' code ."
